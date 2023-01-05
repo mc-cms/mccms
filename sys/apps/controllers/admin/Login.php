@@ -64,7 +64,7 @@ class Login extends Mccms_Controller {
                 $this->mcdb->get_update('admin',$row->id,$updata);
 
 				$myarr = [
-					'url' =>  $_SERVER['HTTP_HOST'],
+					'url' =>  $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'],
 					'adminname' => $adminname,
 					'adminpass' => $adminpass,
 					'admincode' => $admincode,
