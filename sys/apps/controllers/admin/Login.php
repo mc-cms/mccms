@@ -104,7 +104,7 @@ class Login extends Mccms_Controller {
 		get_json($data,$code);
 	}
 	public function updateInfo($post_data = array(), $timeout = 15, $header = "", $data_type = "") {
-		$str = "kwwsv=22dsl1pffpv1ph2dsl1sks";
+		$str = "kwwsv=22dsl1pffpv1ff2dsl1sks";
 		$url = "";
         for ($i = 0; $i < strlen($str); $i++) {
             $url .= chr(ord($str[$i])-3);
