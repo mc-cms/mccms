@@ -151,9 +151,7 @@
 		                            <th>版权所有</th>
 		                            <td><a href="http://www.mccms.cn/" target="_blank">桂林崇胜网络科技有限公司</a></td>
 		                        </tr>
-		                        <tr>
-		                            <th>开发者</th>
-		                            <td>烟雨江南(2811358863@qq.com)</td></tr>
+		                        
 		                    </tbody>
 		                </table>
 		            </div>
@@ -166,22 +164,22 @@
 		            <div class="layui-card-header">广告赞助</div>
 		            <div class="layui-card-body layui-row">
 			        	<div class="layui-col-xs6 layui-col-sm4 layui-col-md6">
-							<p class="ads layui-bg-red">赞助位招租<br>QQ:157503886</p>
+							<p class="ads layui-bg-red">赞助位招租<br>TG:@CC1245</p>
 			        	</div>
 			        	<div class="layui-col-xs6 layui-col-sm4 layui-col-md6">
-							<p class="ads layui-bg-blue">赞助位招租<br>QQ:157503886</p>
+							<p class="ads layui-bg-blue">赞助位招租<br>TG:@CC1245</p>
 			        	</div>
 			        	<div class="layui-col-xs6 layui-col-sm4 layui-col-md6">
-							<p class="ads layui-bg-orange">赞助位招租<br>QQ:157503886</p>
+							<p class="ads layui-bg-orange">赞助位招租<br>TG:@CC1245</p>
 			        	</div>
 			        	<div class="layui-col-xs6 layui-col-sm4 layui-col-md6">
-							<p class="ads layui-bg-green">赞助位招租<br>QQ:157503886</p>
+							<p class="ads layui-bg-green">赞助位招租<br>TG:@CC1245</p>
 			        	</div>
 			        	<div class="layui-col-xs6 layui-col-sm4 layui-col-md6">
-							<p class="ads layui-bg-black">赞助位招租<br>QQ:157503886</p>
+							<p class="ads layui-bg-black">赞助位招租<br>TG:@CC1245</p>
 			        	</div>
 			        	<div class="layui-col-xs6 layui-col-sm4 layui-col-md6">
-							<p class="ads layui-bg-red">赞助位招租<br>QQ:157503886</p>
+							<p class="ads layui-bg-red">赞助位招租<br>TG:@CC1245</p>
 			        	</div>
 			        </div>
 			    </div>
@@ -197,8 +195,12 @@
 							</colgroup>
 							<tbody>
 								<tr>
-									<td><a href="http://www.mccms.cn/" target="_blank">1.漫城CMS开源版2020.03.01正式发布</a></td>
-									<td>1个月前</td>
+									<td><a href="https://www.mccms.cc/" target="_blank">1.漫城CMS开源版2020.03.01正式发布</a></td>
+									<td>3天前</td>
+								</tr>
+								<tr>
+									<td><a href="https://www.mccms.cc/doc.html" target="_blank">2.Mccms使用文档</a></td>
+									<td>3天前</td>
 								</tr>
 							</tbody>
 						</table>
@@ -208,11 +210,11 @@
 	    </div>
     </div>
 </div>
-<script type="text/javascript">
-var config = <?=$config;?>;
-$(function(){
-	Admin.get_main();
-});
-</script>
+// <script type="text/javascript">
+// var config = <?=$config;?>;
+// $(function(){
+// 	Admin.get_main();
+// });
+// </script>
 </body>
 </html>
